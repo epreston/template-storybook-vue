@@ -4,7 +4,6 @@
 
 Repo Template: vue, storybook
 
-[![License][license-badge]][license-url]
 [![CI][ci-badge]][ci-url]
 
 ## Scripts
@@ -55,7 +54,5 @@ This repository employs a [monorepo](https://en.wikipedia.org/wiki/Monorepo) set
 
 This project is released under the [MIT License](LICENSE).
 
-[ci-badge]: https://github.com/epreston/epreston/template-design-system/actions/workflows/ci.yml/badge.svg
-[ci-url]: https://github.com/epreston/epreston/template-design-system/actions
-[license-badge]: https://img.shields.io/npm/l/epreston/template-design-system.svg?cacheSeconds=2592000
-[license-url]: LICENSE
+[ci-badge]: https://github.com/epreston/template-design-system/actions/workflows/ci.yml/badge.svg
+[ci-url]: https://github.com/epreston/template-design-system/actions
