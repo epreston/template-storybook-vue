@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@10.2.3",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "eslintConfig": {
+    "root": true,
+    "extends": "@epreston/eslint-config"
+  },
+  "prettier": "@epreston/prettier-config",
+  "scripts": {
+    "storybook": "cd apps/design && npm run dev",
+    "clean": "rimraf -g packages/*/dist temp .eslintcache",
+    "lint": "eslint --ext .vue,.js,.jsx,.cjs,.mjs --report-unused-disable-directives .",
+    "test": "vitest run",
+    "test-watch": "vitest",
+    "format": "prettier --check --cache \"**/*.{?(c|m)[tj]s?(x),vue}\"",
+    "format-fix": "prettier --write --cache \"**/*.{?(c|m)[tj]s?(x),vue}\""
+  },
+  "devDependencies": {
+    "@epreston/eslint-config": "^1.1.0",
+    "@epreston/prettier-config": "^2.0.0",
+    "@epreston/tsconfig": "^1.0.1",
+    "@vitejs/plugin-vue": "^4.4.1",
+    "eslint": "^8.53.0",
+    "jsdom": "^22.1.0",
+    "prettier": "^3.1.0",
+    "rimraf": "^5.0.5",
+    "vite": "^4.5.0",
+    "vitest": "^0.34.6"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.3.8"
+  },
+  "engines": {
+    "node": "^18.18.0 || >=20.9.0"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "extends": "@epreston/tsconfig",
+  "compilerOptions": {
+    /* Modules */
+    "rootDir": ".",
+    "baseUrl": ".",
+    "paths": {
+      "@vue-components/*": ["packages/*/src"],
+      "vue-components": ["packages/vue-components/src"]
+    },
+    "types": ["vitest/globals", "node"],
+    "resolveJsonModule": true,
+
+    /* Emit */
+    "outDir": "temp"
+  },
+  "vueCompilerOptions": {
+    "target": 3.3
+  },
+  "include": [
+    "packages/global.d.ts",
+    "packages/*/src",
+    "packages/*/tests",
+    "scripts/vitest-setup.js"
+  ]
+}

@@ -1,0 +1,36 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    ".git": true,
+    "**/.DS_Store": true
+  },
+  "search.exclude": {
+    "**/node_modules": true
+  },
+  "files.insertFinalNewline": true,
+  "[plaintext]": {
+    "files.insertFinalNewline": false
+  },
+  // Use prettier to format typescript, javascript, vue, and JSON files
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "files.trimTrailingWhitespace": false
+  },
+  "[vue]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cSpell.words": ["behavior", "convertacolor", "pinia", "taskbox"],
+  "cSpell.ignoreWords": ["autodocs", "epreston", "iife"]
+}

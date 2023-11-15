@@ -1,0 +1,18 @@
+{
+  "name": "vue-components",
+  "version": "0.0.0",
+  "type": "module",
+  "sideEffects": false,
+  "module": "./dist/index.js",
+  "exports": "./dist/index.js",
+  "license": "MIT",
+  "files": [
+    "dist/**"
+  ],
+  "peerDependencies": {
+    "vue": "^3.3.8"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
