@@ -1,43 +1,29 @@
-# Add any directories, files, or patterns you don't want to be tracked by version control
-
-# Windows and OSX Specific System Files
-.DS_Store
-
-# dotenv environment variable files
-.env
-
 # Logs
+logs
 *.log
 npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Dependency directories
 node_modules
-
-# Optional npm cache directory
-.npm
-
-# Test coverage reports
-coverage
-
-# Distribution Directory
 dist
+dist-ssr
+*.local
 
-# Optional eslint cache
-.eslintcache
-
-# TypeScript cache
-*.tsbuildinfo
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # Storybook build
-apps/design/stories
 build-storybook.log
 storybook-static
-
-# Temp folders
-temp
-/notes
-/meta
-
-# ignore non-npm lockfiles
-pnpm-lock.yaml
-yarn.lock
+src/stories

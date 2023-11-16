@@ -1,54 +1,62 @@
-# Template Design System
+# Storybook + Vue Template Design System
 
-> 🚧 work in progress...
-
-Repo Template: vue, storybook
+Repo Template: vue, vite, storybook.
 
 [![CI][ci-badge]][ci-url]
 
+## Quick Start
+
+Install [Node.js](https://nodejs.org/en/download/), start a new repository using this [template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), create a local [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) of your new repository, and run the following console commands within your local copy:
+
+```bash
+# install dependencies
+npm install
+
+# start the minimal storybook design environment
+npm run storybook
+```
+
 ## Scripts
 
-| Action     | Command              | Description                          |
-| ---------- | -------------------- | ------------------------------------ |
-| storybook  | `npm run storybook`  | Starts Storybook in dev mode         |
-| clean      | `npm run clean`      | Clean up temp files and dist folders |
-| lint       | `npm run lint`       | Run static code analysis             |
-| test       | `npm run test`       | Run unit tests and exit              |
-| test-watch | `npm run test-watch` | Watch for changes and re-run tests   |
-| format     | `npm run format`     | Check source file formatting         |
-| format-fix | `npm run format-fix` | Format source files                  |
+| Action    | Command             | Description                  |
+| --------- | ------------------- | ---------------------------- |
+| storybook | `npm run storybook` | Starts Storybook in dev mode |
+| build     | `npm run build`     | Build the test application   |
+| lint      | `npm run lint`      | Run static code analysis     |
+| format    | `npm run format`    | Format source files          |
 
-## Structure
+## IDE Setup
 
-This repository employs a [monorepo](https://en.wikipedia.org/wiki/Monorepo) setup which hosts a number of associated packages under the `packages` directory.
+- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+
+- This uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+
+- Enable Volar takeover mode.
 
 ## Libraries
 
 | Library   | Reference                 |
 | --------- | ------------------------- |
-| vuejs     | https://vuejs.org/        |
-| storybook | https://storybook.js.org/ |
+| Vuejs     | https://vuejs.org/        |
+| Storybook | https://storybook.js.org/ |
 
 ## Tools
 
-| Tool         | Reference                      |
-| ------------ | ------------------------------ |
-| Node.js      | https://nodejs.org/            |
-| Vite         | https://vitejs.dev/            |
-| Vitest       | https://vitest.dev/            |
-| ESLint       | https://eslint.org/            |
-| Prettier     | https://prettier.io            |
-| EditorConfig | https://editorconfig.org       |
-| jsdom        | https://github.com/jsdom/jsdom |
+| Tool     | Reference           |
+| -------- | ------------------- |
+| Node.js  | https://nodejs.org/ |
+| Vite     | https://vitejs.dev/ |
+| Vitest   | https://vitest.dev/ |
+| ESLint   | https://eslint.org/ |
+| Prettier | https://prettier.io |
 
 ## References
 
-| Website       | Reference                  |
-| ------------- | -------------------------- |
-| Can I Use     | https://caniuse.com        |
-| Browserslist  | https://browsersl.ist      |
-| convertacolor | https://convertacolor.com/ |
-| Polyfill.io   | https://polyfill.io        |
+| Reference       | Website                                                        |
+| --------------- | -------------------------------------------------------------- |
+| Writing Stories | https://storybook.js.org/docs/vue/writing-stories/introduction |
+| Using Args      | https://storybook.js.org/docs/vue/writing-stories/args         |
+| Can I Use       | https://caniuse.com                                            |
 
 ## License
 

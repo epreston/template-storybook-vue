@@ -1,42 +1,49 @@
 {
+  "name": "template-design-system",
   "private": true,
+  "version": "0.0.1",
   "type": "module",
-  "packageManager": "npm@10.2.3",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "eslintConfig": {
     "root": true,
-    "extends": "@epreston/eslint-config"
+    "extends": [
+      "@epreston/eslint-config",
+      "plugin:vue/vue3-essential",
+      "plugin:storybook/recommended"
+    ],
+    "ignorePatterns": [
+      "storybook-static"
+    ],
+    "rules": {
+      "prettier/prettier": "off"
+    }
   },
   "prettier": "@epreston/prettier-config",
   "scripts": {
-    "storybook": "cd apps/design && npm run dev",
-    "clean": "rimraf -g packages/*/dist temp .eslintcache",
-    "lint": "eslint --ext .vue,.js,.jsx,.cjs,.mjs --report-unused-disable-directives .",
-    "test": "vitest run",
-    "test-watch": "vitest",
-    "format": "prettier --check --cache \"**/*.{?(c|m)[tj]s?(x),vue}\"",
-    "format-fix": "prettier --write --cache \"**/*.{?(c|m)[tj]s?(x),vue}\""
-  },
-  "devDependencies": {
-    "@epreston/eslint-config": "^1.1.0",
-    "@epreston/prettier-config": "^2.0.0",
-    "@epreston/tsconfig": "^1.0.1",
-    "@vitejs/plugin-vue": "^4.4.1",
-    "eslint": "^8.53.0",
-    "jsdom": "^22.1.0",
-    "prettier": "^3.1.0",
-    "rimraf": "^5.0.5",
-    "vite": "^4.5.0",
-    "vitest": "^0.34.6"
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview",
+    "lint": "eslint --fix --ext .js,.vue .",
+    "format": "prettier --write \"**/*.{js,vue}\"",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "dependencies": {
     "pinia": "^2.1.7",
     "vue": "^3.3.8"
   },
-  "engines": {
-    "node": "^18.18.0 || >=20.9.0"
+  "devDependencies": {
+    "@epreston/eslint-config": "^1.1.0",
+    "@epreston/prettier-config": "^2.0.0",
+    "@epreston/tsconfig": "^1.0.1",
+    "@storybook/addon-essentials": "^7.5.3",
+    "@storybook/vue3": "^7.5.3",
+    "@storybook/vue3-vite": "^7.5.3",
+    "@vitejs/plugin-vue": "^4.4.1",
+    "eslint": "^8.53.0",
+    "eslint-plugin-storybook": "^0.6.15",
+    "eslint-plugin-vue": "^9.18.1",
+    "prettier": "^3.1.0",
+    "storybook": "^7.5.3",
+    "vite": "^4.5.0"
   }
 }

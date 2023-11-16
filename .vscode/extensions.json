@@ -1,11 +1,8 @@
 {
-  // See https://go.microsoft.com/fwlink/?LinkId=827846
-  // for the documentation about the extensions.json format
   "recommendations": [
-    "dbaeumer.vscode-eslint",
-    "editorconfig.editorconfig",
-    "esbenp.prettier-vscode",
     "vue.volar",
-    "vue.vscode-typescript-vue-plugin"
+    "vue.vscode-typescript-vue-plugin",
+    "esbenp.prettier-vscode",
+    "dbaeumer.vscode-eslint"
   ]
 }
