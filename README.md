@@ -1,6 +1,6 @@
 # Template Design System
 
-> 🚧 Work in progress....
+> 🚧 work in progress...
 
 Repo Template: vue, storybook
 
