@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "pinia": "^2.1.7",
-    "vue": "^3.3.8"
+    "vue": "^3.3.9"
   },
   "devDependencies": {
     "@epreston/eslint-config": "^1.1.1",
