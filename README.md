@@ -25,7 +25,7 @@ npm run storybook
 | lint      | `npm run lint`      | Run static code analysis     |
 | format    | `npm run format`    | Format source files          |
 
-## IDE Setup
+## Setup
 
 - [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
 
@@ -35,19 +35,19 @@ npm run storybook
 
 ## Libraries
 
-| Library   | Reference                 |
-| --------- | ------------------------- |
-| Vuejs     | https://vuejs.org/        |
-| Storybook | https://storybook.js.org/ |
+| Library   | Reference                |
+| --------- | ------------------------ |
+| Vuejs     | https://vuejs.org        |
+| Storybook | https://storybook.js.org |
 
 ## Tools
 
 | Tool     | Reference           |
 | -------- | ------------------- |
-| Node.js  | https://nodejs.org/ |
-| Vite     | https://vitejs.dev/ |
-| Vitest   | https://vitest.dev/ |
-| ESLint   | https://eslint.org/ |
+| Node.js  | https://nodejs.org  |
+| Vite     | https://vitejs.dev  |
+| Vitest   | https://vitest.dev  |
+| ESLint   | https://eslint.org  |
 | Prettier | https://prettier.io |
 
 ## References
@@ -60,7 +60,7 @@ npm run storybook
 
 ## License
 
-This project is released under the [MIT License](LICENSE).
+This project is released under the MIT [License](LICENSE).
 
 [ci-badge]: https://github.com/epreston/template-design-system/actions/workflows/ci.yml/badge.svg
 [ci-url]: https://github.com/epreston/template-design-system/actions
