@@ -3,7 +3,7 @@
   "cSpell.words": ["pinia", "Vetur", "Vite", "Volar", "vuejs"],
   "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
+    "source.fixAll.eslint": "explicit"
   },
   "eslint.validate": ["javascript", "vue"]
 }
