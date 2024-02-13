@@ -31,20 +31,20 @@
     "@epreston/eslint-config": "^1.1.1",
     "@epreston/prettier-config": "^2.0.0",
     "@epreston/tsconfig": "^1.1.1",
-    "@storybook/addon-essentials": "^7.6.14",
-    "@storybook/vue3": "^7.6.13",
-    "@storybook/vue3-vite": "^7.6.14",
+    "@storybook/addon-essentials": "^7.6.15",
+    "@storybook/vue3": "^7.6.15",
+    "@storybook/vue3-vite": "^7.6.15",
     "@vitejs/plugin-vue": "^5.0.4",
     "eslint": "^8.56.0",
     "eslint-plugin-storybook": "^0.6.15",
     "eslint-plugin-vue": "^9.21.1",
     "prettier": "^3.2.5",
-    "storybook": "^7.6.14",
+    "storybook": "^7.6.15",
     "vite": "^5.1.1"
   },
   "dependencies": {
     "pinia": "^2.1.7",
-    "vue": "^3.4.18"
+    "vue": "^3.4.19"
   },
   "engines": {
     "node": "^18.19.0 || >=20.11.0"
