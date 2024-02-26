@@ -1,5 +1,3 @@
-// .storybook/main.js
-
 import { mergeConfig } from 'vite';
 
 /** @type { import('@storybook/vue3-vite').StorybookConfig } */
