@@ -39,7 +39,7 @@
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-vue": "^9.25.0",
     "prettier": "^3.2.5",
-    "storybook": "^8.0.6",
+    "storybook": "^8.0.8",
     "vite": "^5.2.8"
   },
   "dependencies": {
