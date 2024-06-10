@@ -40,7 +40,7 @@
     "eslint-plugin-vue": "^9.26.0",
     "prettier": "^3.3.1",
     "storybook": "^8.1.6",
-    "vite": "^5.2.12"
+    "vite": "^5.2.13"
   },
   "dependencies": {
     "pinia": "^2.1.7",
