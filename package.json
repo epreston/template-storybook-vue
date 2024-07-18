@@ -1,8 +1,8 @@
 {
-  "name": "template-storybook-vue",
   "private": true,
-  "version": "0.4.0",
   "type": "module",
+  "name": "template-storybook-vue",
+  "version": "0.4.0",
   "eslintConfig": {
     "root": true,
     "extends": [
@@ -29,22 +29,22 @@
   },
   "devDependencies": {
     "@epreston/eslint-config": "^1.1.2",
-    "@epreston/prettier-config": "^2.0.0",
-    "@epreston/tsconfig": "^1.2.0",
-    "@storybook/addon-essentials": "^8.2.3",
-    "@storybook/vue3": "^8.1.11",
-    "@storybook/vue3-vite": "^8.2.3",
+    "@epreston/prettier-config": "^2.1.0",
+    "@epreston/tsconfig": "^1.2.1",
+    "@storybook/addon-essentials": "^8.2.4",
+    "@storybook/vue3": "^8.2.4",
+    "@storybook/vue3-vite": "^8.2.4",
     "@vitejs/plugin-vue": "^5.0.5",
     "eslint": "^8.57.0",
     "eslint-plugin-storybook": "^0.8.0",
     "eslint-plugin-vue": "^9.27.0",
     "prettier": "^3.3.3",
-    "storybook": "^8.1.11",
-    "vite": "^5.3.3"
+    "storybook": "^8.2.4",
+    "vite": "^5.3.4"
   },
   "dependencies": {
     "pinia": "^2.1.7",
-    "vue": "^3.4.31"
+    "vue": "^3.4.32"
   },
   "engines": {
     "node": "^18.19.0 || >=20.11.0"
