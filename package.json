@@ -12,10 +12,7 @@
     ],
     "ignorePatterns": [
       "storybook-static"
-    ],
-    "rules": {
-      "prettier/prettier": "off"
-    }
+    ]
   },
   "prettier": "@epreston/prettier-config",
   "scripts": {
