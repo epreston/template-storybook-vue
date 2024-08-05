@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "pinia": "^2.2.0",
-    "vue": "^3.4.34"
+    "vue": "^3.4.35"
   },
   "overrides": {
     "@typescript-eslint/utils": {
