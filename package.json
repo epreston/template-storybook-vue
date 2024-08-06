@@ -32,8 +32,8 @@
     "vite": "^5.3.5"
   },
   "dependencies": {
-    "pinia": "^2.2.0",
-    "vue": "^3.4.35"
+    "pinia": "^2.2.1",
+    "vue": "^3.4.36"
   },
   "overrides": {
     "@typescript-eslint/utils": {
