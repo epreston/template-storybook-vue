@@ -4,6 +4,10 @@
   "name": "template-storybook-vue",
   "version": "0.4.0",
   "prettier": "@epreston/prettier-config",
+  "packageManager": "npm@10.7.0",
+  "engines": {
+    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build --emptyOutDir",
@@ -35,8 +39,5 @@
     "@typescript-eslint/utils": {
       "eslint": "$eslint"
     }
-  },
-  "engines": {
-    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
   }
 }
