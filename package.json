@@ -4,9 +4,9 @@
   "name": "template-storybook-vue",
   "version": "0.4.0",
   "prettier": "@epreston/prettier-config",
-  "packageManager": "npm@10.7.0",
+  "packageManager": "npm@10.8.2",
   "engines": {
-    "node": "^18.20.4 || ^20.15.1 || >=22.5.0"
+    "node": "^18.20.4 || ^20.17.0 || >=22.7.0"
   },
   "scripts": {
     "dev": "vite",
@@ -21,14 +21,14 @@
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
     "@storybook/addon-essentials": "^8.2.9",
-    "@storybook/vue3": "^8.2.8",
+    "@storybook/vue3": "^8.2.9",
     "@storybook/vue3-vite": "^8.2.9",
     "@vitejs/plugin-vue": "^5.1.2",
     "eslint": "^9.9.1",
-    "eslint-plugin-storybook": "^0.9.0--canary.156.26b630a.0",
+    "eslint-plugin-storybook": "^0.9.0--canary.156.ed236ca.0",
     "eslint-plugin-vue": "^9.27.0",
     "prettier": "^3.3.3",
-    "storybook": "^8.2.8",
+    "storybook": "^8.2.9",
     "vite": "^5.4.2"
   },
   "dependencies": {
