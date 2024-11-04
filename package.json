@@ -21,7 +21,7 @@
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
     "@storybook/addon-essentials": "^8.3.6",
-    "@storybook/vue3": "^8.3.5",
+    "@storybook/vue3": "^8.4.1",
     "@storybook/vue3-vite": "^8.3.6",
     "@vitejs/plugin-vue": "^5.1.4",
     "eslint": "^9.13.0",
