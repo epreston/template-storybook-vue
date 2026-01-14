@@ -1,6 +1,8 @@
 import { setup } from '@storybook/vue3';
 import { createPinia } from 'pinia';
 
+import '../src/style.css';
+
 //👇🏼 Registers a global Pinia instance inside Storybook to be consumed by existing stories
 setup((app) => {
   app.use(createPinia());
