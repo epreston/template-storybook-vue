@@ -35,10 +35,5 @@
   "dependencies": {
     "pinia": "^3.0.4",
     "vue": "^3.5.26"
-  },
-  "overrides": {
-    "@typescript-eslint/utils": {
-      "eslint": "$eslint"
-    }
   }
 }
