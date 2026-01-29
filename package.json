@@ -23,7 +23,7 @@
     "@epreston/eslint-config": "^2.3.0",
     "@epreston/prettier-config": "^2.1.0",
     "@epreston/tsconfig": "^1.2.1",
-    "@storybook/addon-docs": "^10.2.0",
+    "@storybook/addon-docs": "^10.2.1",
     "@storybook/addon-links": "^10.2.0",
     "@storybook/vue3": "^10.2.0",
     "@storybook/vue3-vite": "^10.2.0",
