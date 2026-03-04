@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@epreston/eslint-config": "^2.3.0",
-    "@epreston/prettier-config": "^2.1.0",
+    "@epreston/prettier-config": "^2.1.1",
     "@epreston/tsconfig": "^1.2.1",
     "@storybook/addon-docs": "^10.2.13",
     "@storybook/addon-links": "^10.2.15",
