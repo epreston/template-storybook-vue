@@ -23,21 +23,21 @@
     "@epreston/eslint-config": "^2.4.2",
     "@epreston/prettier-config": "^2.1.1",
     "@epreston/tsconfig": "^1.2.2",
-    "@storybook/addon-docs": "^10.5.5",
-    "@storybook/addon-links": "^10.5.5",
-    "@storybook/vue3": "^10.4.2",
-    "@storybook/vue3-vite": "^10.4.6",
-    "@vitejs/plugin-vue": "^6.0.6",
-    "eslint": "^10.3.0",
-    "eslint-plugin-storybook": "^10.3.6",
+    "@storybook/addon-docs": "^10.5.7",
+    "@storybook/addon-links": "^10.5.7",
+    "@storybook/vue3": "^10.5.7",
+    "@storybook/vue3-vite": "^10.5.7",
+    "@vitejs/plugin-vue": "^6.0.8",
+    "eslint": "^10.8.0",
+    "eslint-plugin-storybook": "^10.5.7",
     "eslint-plugin-vue": "^10.10.0",
-    "prettier": "^3.9.4",
-    "storybook": "^10.2.15",
-    "vite": "^8.2.0"
+    "prettier": "^3.9.6",
+    "storybook": "^10.5.7",
+    "vite": "^8.2.1"
   },
   "dependencies": {
-    "pinia": "^3.0.4",
-    "vue": "^3.5.40"
+    "pinia": "^4.0.2",
+    "vue": "^3.5.41"
   },
   "allowScripts": {
     "esbuild": true
