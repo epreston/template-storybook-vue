@@ -9,7 +9,7 @@ const config = {
   addons: [getAbsolutePath('@storybook/addon-links'), getAbsolutePath('@storybook/addon-docs')],
   framework: {
     name: getAbsolutePath('@storybook/vue3-vite'),
-    options: {}
+    options: { docgen: 'vue-component-meta' }
   },
   core: { disableTelemetry: true },
   docs: {
