@@ -16,6 +16,13 @@ updates:
       interval: monthly
 
     groups:
+      # matching packages that must update together
+      storybook-ecosystem:
+        patterns:
+          - 'storybook'
+          - '@storybook/*'
+          - 'eslint-plugin-storybook'
+
       npm-dev:
         dependency-type: development
         update-types:
